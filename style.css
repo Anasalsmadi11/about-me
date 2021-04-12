@@ -1,0 +1,35 @@
+
+header img{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    //margin: auto; 
+}
+header{
+    text-align: center;
+}
+body{
+width: 900px;
+margin: auto;
+}
+
+ a{
+    text-decoration: none;
+    padding: 10px;
+}
+ul{
+    //text-transform: capitalize;
+}
+
+p{
+    font-size: 20px;
+}
+footer ul li{
+    display: inline-block;
+
+}
+footer{
+    text-align: center;
+    
+}
