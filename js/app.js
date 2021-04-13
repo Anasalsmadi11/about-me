@@ -4,46 +4,45 @@ alert('hello ' + userInput + ' I am delightful you are here!');
 
 console.log('var name is ' + userInput);
 
-/*let q1=prompt('have you ever been to america befor?'). toLocaleLowerCase();
+let q1=prompt('have I ever been to america befor?'). toLocaleLowerCase();
     if(q1=='yes'){
-        alert('that sounds good :)');
+        alert('good :)');
         console.log('that sounds good :)');}
         //else{
         if(q1=='no'){ 
-        alert('i advice you to visit it');
+        alert('you got the right answer');
         }
 
- let q2=prompt('are you above 20?'). toLocaleLowerCase();
+ let q2=prompt('are I above 20?'). toLocaleLowerCase();
             if(q2=='yes'){
-                alert('i think you are an adult now');
+                alert('you got the right answer');
                // console.log('right answer')
             }else{
-                    alert('you are stil a kid '+ userInput);
+                    alert('wrong answer '+ userInput);
                    // console.log('not expected')
                 }
-let q3= prompt('do you live by your self?'). toLocaleLowerCase();
+let q3= prompt('do I live by your self?'). toLocaleLowerCase();
                 if(q3=='yes'){
-                    alert('hope you get to see your family soon');
+                    alert('cool');
                    // console.log('sad')
                 }else{
-                    alert('good!');
+                    alert('wrong answer!');
                    // console.log('good');
                 }
-let q4= prompt('have you ever cried?'); toLocaleLowerCase();
+let q4= prompt('have I ever cried?'); toLocaleLowerCase();
                 if(q4='yes'){
-                    alert('dont cry');
+                    alert('good ');
                 }else{
-                    alert('very  good');
+                    alert('wrong answer');
                 }
-let q5= prompt('do you know dancing?'); toLocaleLowerCase();
+let q5= prompt('do I know dancing?'); toLocaleLowerCase();
                 if(q5='yes'){
-                    alert('nice answer!')
+                    alert('wrong answer!')
                    // console.log('oh yeah')
                 }else{
-                    alert('try to learn');
+                    alert('nice answer!');
                     
-                }*/
-
+                }
 let q6 =prompt('Try to guess the number in my mind , its between 50 & 60');
 
 let i;
@@ -85,3 +84,14 @@ for (let i = 0; i < 6; i++) {
     }
 }
 alert('the correct answer is avangers');
+
+
+var count= 0;
+//if (q1=='no'){count +=1;}
+//if(q2=='yes'){count +=1;}
+//if(q3=='no'){count +=1;}
+//if(q4=='yes') {count +=1;}
+//if(q5=='no') {count +=1;}
+if(q6=='57') {count +=1;}
+if(q7=='avangers') {count +=1;}
+alert('Mark=' +count);
