@@ -4,7 +4,7 @@ header img{
     padding-top: 20px;
     padding-bottom: 20px;
     display: block;
-    //margin: auto; 
+     margin: auto; 
 }
 header{
     text-align: center;
@@ -18,8 +18,18 @@ margin: auto;
     text-decoration: none;
     padding: 10px;
 }
-ul{
-    //text-transform: capitalize;
+main ul li{
+     padding-top: 5px;
+    padding-bottom: 5px;
+}
+ol{
+    padding-top: 5px;
+}
+ol li{
+    text-transform: capitalize;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+
 }
 
 p{
@@ -27,7 +37,7 @@ p{
 }
 footer ul li{
     display: inline-block;
-
+    padding-top: 5px;
 }
 footer{
     text-align: center;
