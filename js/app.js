@@ -9,8 +9,8 @@ let q1=prompt('have I ever been to america befor?'). toLocaleLowerCase();
 const checkTravel= function(){
   if(q1 ==='yes'){
     alert('good :)');
-    // console.log('that sounds good :)');}
-  }else{
+    console.log('that sounds good :)');}
+  else{
     alert('you got the right answer');
   }
 };
@@ -21,7 +21,7 @@ let q2=prompt('are I above 20?'). toLocaleLowerCase();
 const checkAge = function(){
   if(q2 ==='yes'){
     alert('you got the right answer');
-    // console.log('right answer')
+    console.log('right answer');
   }else{
     alert('wrong answer '+ userInput);
   }
@@ -33,10 +33,10 @@ let q3= prompt('do I live by my self?'). toLocaleLowerCase();
 const checkLiving = function(){
   if(q3 ==='yes'){
     alert('cool');
-  // console.log('sad')
+    console.log('sad');
   }else{
     alert('right answer!');
-  // console.log('good');
+    console.log('good');
   }
 };
 checkLiving();
@@ -55,7 +55,7 @@ let q5= prompt('do I know dancing?'). toLocaleLowerCase();
 const fun = function(){
   if(q5 ==='yes'){
     alert('wrong answer!');
-  // console.log('oh yeah')
+    console.log('oh yeah');
   }else{
     alert('nice answer!');
   }
