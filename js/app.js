@@ -1,5 +1,8 @@
 'use strict';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2a45f977155e8e651bcfd83a6b308fbaa4ec3e13
 let userInput = prompt('whats your your name').toUpperCase();
 alert('hello ' + userInput + ' I am delightful you are here!');
 
@@ -9,8 +12,13 @@ let q1=prompt('have I ever been to america befor?'). toLocaleLowerCase();
 const checkTravel= function(){
   if(q1 ==='yes'){
     alert('good :)');
+<<<<<<< HEAD
     console.log('that sounds good :)');}
   else{
+=======
+    // console.log('that sounds good :)');}
+  }else{
+>>>>>>> 2a45f977155e8e651bcfd83a6b308fbaa4ec3e13
     alert('you got the right answer');
   }
 };
@@ -21,13 +29,18 @@ let q2=prompt('are I above 20?'). toLocaleLowerCase();
 const checkAge = function(){
   if(q2 ==='yes'){
     alert('you got the right answer');
+<<<<<<< HEAD
     console.log('right answer');
+=======
+    // console.log('right answer')
+>>>>>>> 2a45f977155e8e651bcfd83a6b308fbaa4ec3e13
   }else{
     alert('wrong answer '+ userInput);
   }
 
 };
 checkAge();
+<<<<<<< HEAD
 
 let q3= prompt('do I live by my self?'). toLocaleLowerCase();
 const checkLiving = function(){
@@ -62,6 +75,42 @@ const fun = function(){
 };
 fun();
 
+=======
+
+let q3= prompt('do I live by your self?'). toLocaleLowerCase();
+const checkLiving = function(){
+  if(q3 ==='yes'){
+    alert('cool');
+  // console.log('sad')
+  }else{
+    alert('wrong answer!');
+  // console.log('good');
+  }
+};
+checkLiving();
+
+let q4= prompt(' am I married?'). toLocaleLowerCase();
+const feeling = function(){
+  if(q4 ==='yes'){
+    alert('wrong answer');
+  }else{
+    alert('cool');
+  }
+};
+feeling();
+
+let q5= prompt('do I know dancing?'). toLocaleLowerCase();
+const fun = function(){
+  if(q5 ==='yes'){
+    alert('wrong answer!');
+  // console.log('oh yeah')
+  }else{
+    alert('nice answer!');
+  }
+};
+fun();
+
+>>>>>>> 2a45f977155e8e651bcfd83a6b308fbaa4ec3e13
 let q6 =prompt('Try to guess the number in my mind , its between 50 & 60');
 let checkNumber = function() {
   let i;
@@ -99,7 +148,11 @@ let checkFilms = function(){
 
   alert('the correct answer is avangers');
 
+<<<<<<< HEAD
 
+=======
+//   console.log('correct answer is avangers');
+>>>>>>> 2a45f977155e8e651bcfd83a6b308fbaa4ec3e13
 };
 checkFilms();
 
